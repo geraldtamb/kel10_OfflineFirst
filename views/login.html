@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Login Page</title>
+    </head>
+    <body>
+        <h1>This is the Login Page</h1>
+        <form action="login" method="post">
+                <row>
+                        <col  md={{ span: 8, order: 1 }}>
+                            <h3>Username: </h3>
+                            <input type="text" name="username" />
+                        </col>
+                        <col  md={{ span: 8, order: 1 }}>
+                            <h3>Password:</h3>
+                            <input type="password" name="password">
+                        </col>
+                    </row>
+                    <input type="submit" value="Login">
+        </form>
+        <h4>Does not have a username yet? <a href="/register">Register here</a></h4>
+    </body>
+</html>

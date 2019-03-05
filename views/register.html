@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Register User</title>
+    </head>
+    <body>
+        <h1>Register User</h1>
+        <form action="register" method="post">
+            <row>
+                <col  md={{ span: 8, order: 1 }}>
+                    <h3>Username: </h3>
+                    <input type="text" name="username" />
+                </col>
+                <col  md={{ span: 8, order: 1 }}>
+                    <h3>Password:</h3>
+                    <input type="password" name="password">
+                </col>
+                <col  md={{ span: 8, order: 1 }}>
+                    <h3>Confirm Password:</h3>
+                    <input type="password" name="confirm_password"><br><br>
+                </col>
+                    <input type="submit" value="Register">
+            </row>
+        </form>
+        <p>Already have a user? <a href="/login">Login here</a></p>
+    </body>
+</html>
