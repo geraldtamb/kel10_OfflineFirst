@@ -1,0 +1,24 @@
+{
+  "name": "offline_first",
+  "version": "1.0.0",
+  "description": "offline couchdb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerald",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "cryptr": "^4.0.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "internet-available": "^1.0.0",
+    "nano": "^8.0.0",
+    "node": "^10.15.2",
+    "node-couchdb": "^1.3.0"
+  }
+}
